@@ -1,0 +1,92 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 32px 2px rgba(76, 93, 158, 0.12);
+  background-color: #FFFFFF;
+  width: 958px;
+  height: 528px;
+  gap: 24px;
+  justify-content: flex-end;
+}
+
+.login-form-title {
+  font-family: Bauhaus Std, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.18;
+  letter-spacing: -0.018em;
+  text-align: center;
+  color: #25304B;
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.login-form-partner-login {
+  font-family: Bauhaus Std, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.375;
+  letter-spacing: -0.025em;
+  color: #25304B;
+  margin-bottom: 24px;
+}
+
+.login-form-input {
+  width: 304px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #DAF1FF;
+  margin-bottom: 12px;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #25304B;
+}
+
+.login-form-forgot-password {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000099;
+  text-decoration: none;
+  margin-bottom: 36px;
+}
+
+.login-form-button {
+  background-color: #000099;
+  color: #FFFFFF;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 16px 56px;
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 32px;
+}
+
+.login-form-register-links {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.login-form-register-link {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000099;
+  text-decoration: none;
+}
+
+.login-form-register-separator {
+  color: #9BA4B8;
+}
